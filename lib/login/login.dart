@@ -22,7 +22,6 @@ class _LoginState extends State<Login> {
   Future<void> login() async {
     final username = usernameC.text.trim();
     final password = passwordC.text.trim();
-
     LoginModel? user = await Users.login(context, username: username, password: password, name: widget.str);
     if(user!=null){
       final SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -45,7 +44,7 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffF5F4F0),
+      backgroundColor: Colors.white,
       body: Center(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(24),
@@ -53,7 +52,7 @@ class _LoginState extends State<Login> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(
-                'assets/logo.jpg',
+                'assets/logo.png',
                 width: MediaQuery.of(context).size.width,
                 fit: BoxFit.cover,
               ),

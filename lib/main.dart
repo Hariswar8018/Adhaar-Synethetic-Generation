@@ -146,13 +146,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Color(0xffF5F4F0),
+        color: Colors.white,
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         child: Padding(
           padding: const EdgeInsets.all(15.0),
           child: Image(
-            image: AssetImage('assets/logo.jpg'),
+            image: AssetImage('assets/logo.png'),
             fit: BoxFit.contain,
           ),
         ),

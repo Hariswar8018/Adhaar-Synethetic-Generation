@@ -1,9 +1,4 @@
-
-
-
-
-
-package com.starwish.adhaar
+package com.ayus.dev
 
 import io.flutter.embedding.android.FlutterActivity
 

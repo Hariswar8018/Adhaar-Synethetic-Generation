@@ -70,13 +70,21 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
   flutter_launcher_icons: ^0.13.1
+  package_rename_plus: ^1.0.1
+package_rename_config:
+  android:
+    app_name: AyusDev
+    package_name: com.ayus.dev
+    override_old_package: # (Optional) (String) Use this to delete the old folder structure of MainActivity or to use the existing code with the new package name
+    lang: # (Optional) (String) The android development language {kotlin(default) or java}
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/logo.jpg"
+  image_path: "assets/logo.png"
   min_sdk_android: 21
 # The following section is specific to Flutter packages.
 flutter:

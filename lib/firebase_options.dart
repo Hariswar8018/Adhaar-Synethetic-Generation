@@ -47,30 +47,31 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAOnxA86zGGDbrhwB5Eu4oS_WPDUnYRs5s',
-    appId: '1:727974995113:android:6a864468378c85c1b1b5b8',
-    messagingSenderId: '727974995113',
-    projectId: 'aadhaar-nsp-2026',
-    storageBucket: 'aadhaar-nsp-2026.firebasestorage.app',
+    apiKey: 'AIzaSyCm010CneRzj-LJMKW36OJLF1qgtCtRsHI',
+    appId: '1:1052964691730:android:7cbe315271107457b55dcb',
+    messagingSenderId: '1052964691730',
+    projectId: 'starwish',
+    storageBucket: 'starwish.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD_-hO7Ye5GioAVv3YD_7LOv1GYZ29nznI',
-    appId: '1:727974995113:ios:9a5e09d276a68900b1b5b8',
-    messagingSenderId: '727974995113',
-    projectId: 'aadhaar-nsp-2026',
-    storageBucket: 'aadhaar-nsp-2026.firebasestorage.app',
+    apiKey: 'AIzaSyBvAYV6oGrljFJeKDpPzO1ydO6V4_rerQE',
+    appId: '1:1052964691730:ios:26e2a2afa1b1c7c2b55dcb',
+    messagingSenderId: '1052964691730',
+    projectId: 'starwish',
+    storageBucket: 'starwish.appspot.com',
+    iosClientId: '1052964691730-rb480lmeqd6an8rvcpp8334pvd0prokl.apps.googleusercontent.com',
     iosBundleId: 'com.starwish.adhaar',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBbwuSvfvDI26_6OnZ6hGv3UCGRKdgVlC0',
-    appId: '1:727974995113:web:51229e56b1808f52b1b5b8',
-    messagingSenderId: '727974995113',
-    projectId: 'aadhaar-nsp-2026',
-    authDomain: 'aadhaar-nsp-2026.firebaseapp.com',
-    storageBucket: 'aadhaar-nsp-2026.firebasestorage.app',
-    measurementId: 'G-JE5JD6YHZH',
+    apiKey: 'AIzaSyBdDkSiBg5vDmoydgbLsLLauxRDXraZYeQ',
+    appId: '1:1052964691730:web:ad00a48cd78f13b3b55dcb',
+    messagingSenderId: '1052964691730',
+    projectId: 'starwish',
+    authDomain: 'starwish.firebaseapp.com',
+    storageBucket: 'starwish.appspot.com',
+    measurementId: 'G-BVRM980P0Z',
   );
 
 }

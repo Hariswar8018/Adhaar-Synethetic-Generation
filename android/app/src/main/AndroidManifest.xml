@@ -10,15 +10,10 @@
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="32"/>
 
-    <!-- Write Storage (Android 10 and below) -->
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="29"/>
-
     <!-- For PDF printing & sharing -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="Simplex VSL"
+        android:label="AyusDev"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
